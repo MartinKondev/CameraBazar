@@ -1,0 +1,18 @@
+﻿@model IEnumerable<CameraBazar.Models.Camera>
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>All Cameras</h2>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @Html.Partial("_ViewCameraDetailsRow", item)
+        }
+    </tbody>
+</table>

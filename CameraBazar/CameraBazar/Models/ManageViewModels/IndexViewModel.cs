@@ -8,6 +8,7 @@ namespace CameraBazar.Models.ManageViewModels
 {
     public class IndexViewModel
     {
+        [RegularExpression(Constants.UserNameRegexPattern)]
         public string Username { get; set; }
 
         public bool IsEmailConfirmed { get; set; }
@@ -18,6 +19,7 @@ namespace CameraBazar.Models.ManageViewModels
 
         [Phone]
         [Display(Name = "Phone number")]
+        [RegularExpression(Constants.UserPhoneNumberRegexPattern)]
         public string PhoneNumber { get; set; }
 
         public string StatusMessage { get; set; }

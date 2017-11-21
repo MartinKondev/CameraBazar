@@ -13,9 +13,10 @@ using System;
 namespace CameraBazar.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20171121132447_bazar")]
+    partial class bazar
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -101,6 +102,8 @@ namespace CameraBazar.Data.Migrations
 
                     b.Property<string>("Model")
                         .IsRequired();
+
+                    b.Property<int>("MyProperty");
 
                     b.Property<double>("Price");
 

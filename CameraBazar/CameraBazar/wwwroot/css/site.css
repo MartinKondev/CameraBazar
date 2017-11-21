@@ -33,3 +33,29 @@
         display: none;
     }
 }
+
+table.camera-details-component {
+    border: 1px solid black;
+    margin: 10px;
+    min-width: 350px;
+}
+
+    table.camera-details-component tr td:first-child {
+        width: 130px;
+    }
+
+    table.camera-details-component tr td:nth-child(2) {
+        width: 20px;
+    }
+
+    table.camera-details-component tr td:nth-child(3) {
+        width: 90px;
+    }
+
+td .stock-info {
+}
+
+img.camera-thumbnail {
+    max-width: 100px;
+    margin: 10px;
+}

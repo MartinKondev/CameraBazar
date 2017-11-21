@@ -1,0 +1,99 @@
+﻿@model CameraBazar.Models.Camera
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Camera</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CameraMake)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CameraMake)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Model)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Model)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MinShutterSpeed)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MinShutterSpeed)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxShutterSpeed)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaxShutterSpeed)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MinISO)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MinISO)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxISO)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaxISO)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IsFullFrame)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IsFullFrame)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VideoResolution)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VideoResolution)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LightMetering)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LightMetering)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageUrl)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
