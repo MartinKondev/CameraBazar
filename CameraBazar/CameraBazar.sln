@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraBazar", "CameraBazar\CameraBazar.csproj", "{AF954F25-DFAF-4C20-AAC8-A2F2CA192392}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF954F25-DFAF-4C20-AAC8-A2F2CA192392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF954F25-DFAF-4C20-AAC8-A2F2CA192392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF954F25-DFAF-4C20-AAC8-A2F2CA192392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF954F25-DFAF-4C20-AAC8-A2F2CA192392}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0A3FC8C-5FF4-4251-AF99-B76156ECBC26}
+	EndGlobalSection
+EndGlobal
